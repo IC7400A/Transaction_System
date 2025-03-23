@@ -7,7 +7,6 @@
 using namespace std;
 
 extern Database db;
-
 AccountManager accountManager;
 
 void clearInputBuffer() {
