@@ -41,7 +41,7 @@ $(TARGET): $(CPP_OBJECTS) $(C_OBJECTS)
 	$(CXX) $(CPP_OBJECTS) $(C_OBJECTS) $(LDFLAGS) -o $(TARGET)
 
 clean:
-	rm -rf $(BUILD_DIR) $(BIN_DIR)
+	rm -rf $(BUILD_DIR) $(BIN_DIR) ./web/node_modules ./web/package.json ./web/package-lock.json
 
 run: all
 	$(TARGET)
