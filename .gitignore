@@ -1,5 +1,7 @@
 # Node modules
-node_modules/
+web/node_modules/
+web/package.json
+web/package-lock.json
 
 # Environment files
 .env
@@ -14,7 +16,7 @@ Thumbs.db
 # Binaries and builds
 bin/
 dist/
-build/
+bin/
 *.exe
 *.bin
 
